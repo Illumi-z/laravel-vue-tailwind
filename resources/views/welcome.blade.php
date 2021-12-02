@@ -19,7 +19,7 @@
         
         <div id="app">
 
-            <header>
+            <header class="red">
                 <nav>
                     <router-link to="/">Home</router-link>
                     <router-link :to="{ name: 'about' }">About</router-link>
